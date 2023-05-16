@@ -1,5 +1,6 @@
 const Country = require("../models/countryModel");
 
+// Endpoint for creating country
 exports.createCountry = async (req, res) => {
   try {
     const data = req.body;
