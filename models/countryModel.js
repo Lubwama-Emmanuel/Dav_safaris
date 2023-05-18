@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Model schema
 const countrySchema = new mongoose.Schema({
   country_name: {
     type: String,
