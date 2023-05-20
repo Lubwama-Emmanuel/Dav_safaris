@@ -2,10 +2,10 @@ const mongoose = require("mongoose");
 
 // Model schema
 const countrySchema = new mongoose.Schema({
-  country_name: {
+  countryName: {
     type: String,
   },
-  country_title: {
+  countryTitle: {
     type: String,
   },
   summary: {
@@ -14,7 +14,7 @@ const countrySchema = new mongoose.Schema({
   slug: {
     type: String,
   },
-  specilalist: {
+  specialist: {
     type: String,
   },
 });

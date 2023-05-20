@@ -17,3 +17,10 @@ exports.createCountry = async (req, res) => {
     console.log("an error occured", err);
   }
 };
+
+exports.getCountry = async (req, res) => {
+  try {
+  } catch (err) {
+    console.log("an error occurred", err);
+  }
+};
